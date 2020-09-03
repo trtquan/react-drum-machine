@@ -1,6 +1,5 @@
 
 import React, { Component } from 'react';
-import DrumPad from './DrumPad';
 import './App.css';
 
 const bankOne = [{
@@ -189,7 +188,7 @@ export default class App extends Component {
     if (value === 0) iconVolumeElm.className = "fas fa-volume-off";
     else if (value < 50) iconVolumeElm.className = "fas fa-volume-down";
     else iconVolumeElm.className = "fas fa-volume-up";
-
+    this.
     displayVolumeValueElm.style.setProperty('opacity', 1);
     setTimeout(() => {
       displayVolumeValueElm.style.setProperty('opacity', 0);
