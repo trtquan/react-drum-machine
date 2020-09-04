@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import './App.css';
 
 const bankOne = [{
-  keyCode: 81,
+  keyCode: 81, 
   keyTrigger: 'Q',
   id: 'Heater-1',
   url: 'https://s3.amazonaws.com/freecodecamp/drums/Heater-1.mp3'
